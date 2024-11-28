@@ -9,9 +9,9 @@
 */
 
 /**
- * Raise one number to power of two
- * @param {number} base
- * @returns number
+ * 
+ * @param {*} base 
+ * @returns 
  */
 const raiseValueToPower2 = function (base) {
   const result = Math.pow(base, 2);
