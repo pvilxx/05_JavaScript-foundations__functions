@@ -3,3 +3,15 @@
  * input: number (limit)
  * output: number
  */
+
+
+/**
+ * 
+ * @param {*} base 
+ */
+
+const generateRandomNumberInRange = function(base){
+    const result = math.random() * base;
+}
+
+export default generateRandomNumberInRange;
