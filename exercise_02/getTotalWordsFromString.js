@@ -3,3 +3,18 @@
  * input: string (sentence)
  * output: number
  */
+
+/**
+ * 
+ * @param {*} base 
+ * @returns 
+ */
+
+const getTotalWordsFromString = function(base){
+    if(typeof base === "string"){
+        return base.length;
+    } 
+    return -1
+}
+
+export default getTotalWordsFromString;
