@@ -4,3 +4,17 @@
  * input: number (summand2)
  * output: boolean
  */
+
+const isAdditionGreaterThanFifty = function(base,addition){
+    result = base + addition;
+    if(result > 50){
+        return true;
+    }
+    if(result == 50){
+        return true;
+    }
+
+    return false;
+}
+
+export default isAdditionGreaterThanFifty;
